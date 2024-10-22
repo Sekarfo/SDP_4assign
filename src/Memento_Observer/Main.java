@@ -26,11 +26,11 @@ public class Main {
 
 
         NewsAgency agency = new NewsAgency();
-        NewsChannel cnn = new NewsChannel("CNN");
-        NewsChannel bbc = new NewsChannel("BBC");
+        NewsChannel Tengri = new NewsChannel("Tengri");
+        NewsChannel KTK = new NewsChannel("KTK");
 
-        agency.addObserver(cnn);
-        agency.addObserver(bbc);
+        agency.addObserver(Tengri);
+        agency.addObserver(KTK);
 
         agency.setHeadline("New tech breakthrough!");
         agency.setHeadline("Stock market rallies!");

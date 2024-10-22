@@ -15,7 +15,7 @@ public class Inter {
     }
 
     public static void main(String[] args) {
-        String expression = "5 + 2 - 3";
+        String expression = "1 + 2 + 3";
         Expression parsedExpression = Inter.parse(expression);
         System.out.println("Result: " + parsedExpression.interpret());
     }
